@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/get-started/get-started.iml" filepath="$PROJECT_DIR$/get-started/get-started.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/open-source-project-2021a.iml" filepath="$PROJECT_DIR$/.idea/open-source-project-2021a.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Open-Source-Project.iml" filepath="$PROJECT_DIR$/Open-Source-Project.iml" />
     </modules>
   </component>
 </project>
