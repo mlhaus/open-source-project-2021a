@@ -21,6 +21,8 @@ public enum PizzaItem {
     ,THE_MEATS("The Meats Pizza", 18.99, "Packed with pepperoni, Italian sausage, ham, bacon," +
             " seasoned pork and beef, this pizza is NOT messing around.", Size.LARGE, Crust.PAN, Sauce.MARINARA,
             new Meat[]{Meat.PEPPERONI, Meat.SAUSAGE, Meat.HAM, Meat.BEEF, Meat.ITALIAN_SAUSAGE, Meat.BACON}, new Veggie[]{})
+    ,BUFF_CHICKEN("Buffalo Chicken Pizza", 13.49, "Buffalo hot sauce and grilled chicken",
+            Size.LARGE, Crust.ORIGINAL, Sauce.BUFFALO, new Meat[]{Meat.CHICKEN}, new Veggie[]{})
     ;
 
     private Pizza item;
