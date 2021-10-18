@@ -18,6 +18,12 @@ public enum PizzaItem {
             Crust.ORIGINAL, Sauce.MARINARA, new Meat[]{Meat.PEPPERONI, Meat.CANADIAN_BACON,
             Meat.SAUSAGE}, new Veggie[]{Veggie.ONION, Veggie.GREEN_PEPPER, Veggie.MUSHROOM,
             Veggie.BLACK_OLIVE})
+    ,THAI_VEGGIE("Thai Veggie Pizza", 15.00,
+            "Thai peanut sauce, red onion, carrot, fresh red pepper, pineapple," +
+                    "green pepper, and monterrey jack, topped with sesame seeds.", Size.LARGE, Crust.THIN,
+            Sauce.THAI_PEANUT, new Meat[]{}, new Veggie[]{Veggie.RED_ONION, Veggie.CARROT, Veggie.RED_PEPPER,
+            Veggie.PINEAPPLE, Veggie.GREEN_PEPPER, Veggie.SESAME_SEEDS})
+
     ;
 
     private Pizza item;
