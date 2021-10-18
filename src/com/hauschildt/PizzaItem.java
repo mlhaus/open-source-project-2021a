@@ -8,7 +8,7 @@ public enum PizzaItem {
     ,SAUSAGE("Sausage Pizza", 13.49, "Our signature pizza sauce layered " +
             "with sausage and real mozzarella cheese. Your choice of crust.", Size.LARGE,
             Crust.ORIGINAL, Sauce.MARINARA, new Meat[]{Meat.SAUSAGE}, new Veggie[]{})
-    ,CHEESE("Cheese Pizza", 12.99, "Simple, yet delicious. Real mozarella " +
+    ,CHEESE("Cheese Pizza", 12.99, "Simple, yet delicious. Real mozzarella " +
             "cheese on top of our signature pizza sauce with your choice of crust, then baked " +
             "to a golden brown.", Size.LARGE, Crust.ORIGINAL, Sauce.MARINARA,
             new Meat[]{}, new Veggie[]{})
@@ -18,8 +18,10 @@ public enum PizzaItem {
             Crust.ORIGINAL, Sauce.MARINARA, new Meat[]{Meat.PEPPERONI, Meat.CANADIAN_BACON,
             Meat.SAUSAGE}, new Veggie[]{Veggie.ONION, Veggie.GREEN_PEPPER, Veggie.MUSHROOM,
             Veggie.BLACK_OLIVE})
-    ;
-
+    ,VEGAN_SUPREME("Vegan Supreme pizza",21.99,"Plant based sausage with pineapple, onions " +
+            "black olives, mushrooms, green pepper, tomatoes, and dairy free cheese", Size.LARGE, Crust.ORIGINAL,
+            Sauce.MARINARA, new Meat[]{Meat.VEGAN_SAUSAGE}, new Veggie[]{Veggie.ONION, Veggie.BLACK_OLIVE,
+            Veggie.GREEN_PEPPER, Veggie.MUSHROOM, Veggie.PINEAPPLE, Veggie.TOMATO});
     private Pizza item;
 
     PizzaItem(String name, double price, String description, Size size, Crust crust, Sauce sauce, Meat[] meat, Veggie[] veggies){
