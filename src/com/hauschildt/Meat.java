@@ -6,6 +6,7 @@ public enum Meat {
     ,CANADIAN_BACON("Canadian bacon")
     ,CHICKEN("Grilled chicken")
     ,BACON("Bacon")
+    , ANCHOVY("Anchovy")
     ;
 
     String description;
