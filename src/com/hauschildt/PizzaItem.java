@@ -18,6 +18,8 @@ public enum PizzaItem {
             Crust.ORIGINAL, Sauce.MARINARA, new Meat[]{Meat.PEPPERONI, Meat.CANADIAN_BACON,
             Meat.SAUSAGE}, new Veggie[]{Veggie.ONION, Veggie.GREEN_PEPPER, Veggie.MUSHROOM,
             Veggie.BLACK_OLIVE})
+    ,BUFF_CHICKEN("Buffalo Chicken Pizza", 13.49, "Buffalo hot sauce and grilled chicken",
+            Size.LARGE, Crust.ORIGINAL, Sauce.BUFFALO, new Meat[]{Meat.CHICKEN}, new Veggie[]{})
     ;
 
     private Pizza item;
