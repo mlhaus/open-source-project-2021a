@@ -18,6 +18,11 @@ public enum PizzaItem {
             Crust.ORIGINAL, Sauce.MARINARA, new Meat[]{Meat.PEPPERONI, Meat.CANADIAN_BACON,
             Meat.SAUSAGE}, new Veggie[]{Veggie.ONION, Veggie.GREEN_PEPPER, Veggie.MUSHROOM,
             Veggie.BLACK_OLIVE})
+    ,MEAT_LOVERS("Super Carnivore Pizza", 18.99, "All the meat you could want with no vegetables. "+
+            "Classic pepperoni, spicy Italian sausage, bacon, Canadian bacon, and smokey grilled chicken. All on top of" +
+            "fresh mozzarella cheese and marinara sauce.", Size.EXTRA_LARGE, 
+            Crust.ORIGINAL, Sauce.MARINARA, new Meat[]{Meat.BACON, Meat.CANADIAN_BACON, Meat.CHICKEN,
+            Meat.PEPPERONI, Meat.SAUSAGE}, new Veggie[]{})
     ;
 
     private Pizza item;
