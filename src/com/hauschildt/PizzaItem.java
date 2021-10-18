@@ -12,6 +12,10 @@ public enum PizzaItem {
             "cheese on top of our signature pizza sauce with your choice of crust, then baked " +
             "to a golden brown.", Size.LARGE, Crust.ORIGINAL, Sauce.MARINARA,
             new Meat[]{}, new Veggie[]{})
+    ,MEAT("Meat Lovers Pizza", 12.99, "Our signature pizza sauce layered with pepperoni, sausage, " +
+            "canadian bacon, and bacon bits",
+            Size.LARGE, Crust.STUFFED, Sauce.MARINARA,
+            new Meat[]{Meat.PEPPERONI, Meat.SAUSAGE, Meat.CANADIAN_BACON, Meat.BACON}, new Veggie[]{})
     ,THE_WORKS("The Works Pizza", 18.99, "A heaping helping of pepperoni, " +
             "Canadian bacon, spicy Italian sausage, fresh-cut onions, crisp green peppers, " +
             "mushrooms, ripe black olives, and real mozzarella cheese.", Size.LARGE,
