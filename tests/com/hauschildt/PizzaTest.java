@@ -37,12 +37,16 @@ class PizzaTest {
 
     @Test
     void getDescription() {
-        fail();
+        //Derrick
+        assertEquals(Pizza.DEFAULT_DESCRIPTION, pizza.getDescription());
+
     }
 
     @Test
     void setDescription() {
-        fail();
+        //Derrick
+        pizza.setDescription("Unknown");
+        assertEquals(Pizza.DEFAULT_DESCRIPTION, pizza.getDescription());
     }
 
     @Test
