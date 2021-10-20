@@ -52,12 +52,14 @@ class PizzaTest {
 
     @Test
     void getSize() {
-        fail();
+        assertEquals(Pizza.DEFAULT_SIZE, pizza.getSize());
     }
 
     @Test
     void setSize() {
-        fail();
+        Size newSize = Pizza.MIN_DEFAULT_SIZE;
+        pizza.setSize(newSize);
+        assertEquals(newSize, pizza.getSize());
     }
 
     @Test
