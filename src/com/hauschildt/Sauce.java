@@ -6,6 +6,7 @@ public enum Sauce {
     ,MARINARA("Marinara sauce")
     ,RANCH("Ranch sauce")
     ,THAI_PEANUT("Thai peanut sauce")
+    ,BUFFALO("Buffalo hot sauce")
     ;
 
     String description;
