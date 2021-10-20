@@ -5,9 +5,9 @@ public abstract class MenuItem {
     private double price;
     private String description;
 
-    public final String DEFAULT_NAME = "Unknown";
-    public final double DEFAULT_PRICE = 0;
-    public final String DEFAULT_DESCRIPTION = "Unknown";
+    public static final String DEFAULT_NAME = "Unknown";
+    public static final double DEFAULT_PRICE = 0;
+    public static final String DEFAULT_DESCRIPTION = "Unknown";
 
     public MenuItem(String name, double price, String description) {
         this.name = name;
@@ -37,14 +37,5 @@ public abstract class MenuItem {
 
     public void setDescription(String description) {
         this.description = description;
-    }
-
-    @Override
-    public String toString() {
-        return "MenuItem{" +
-                "name='" + name + '\'' +
-                ", price=" + price +
-                ", description='" + description + '\'' +
-                '}';
     }
 }
