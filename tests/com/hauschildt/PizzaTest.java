@@ -55,12 +55,16 @@ class PizzaTest {
 
     @Test
     void getCrust() {
-        fail();
+        assertEquals(Pizza.DEFAULT_CRUST, pizza.getCrust());
+
     }
 
     @Test
-    void setCrust() {
-        fail();
+    void setCrustWithGoodData() {
+
+        pizza.setCrust(Crust.ORIGINAL);
+        assertEquals(Pizza.DEFAULT_CRUST, pizza.getCrust());
+
     }
 
     @Test
