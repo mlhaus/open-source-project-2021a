@@ -62,8 +62,8 @@ class PizzaTest {
     @Test
     void setCrustWithGoodData() {
 
-        pizza.setCrust(Crust.ORIGINAL);
-        assertEquals(Pizza.DEFAULT_CRUST, pizza.getCrust());
+        pizza.setCrust(Crust.PAN);
+        assertEquals(Crust.PAN, pizza.getCrust());
 
     }
 
