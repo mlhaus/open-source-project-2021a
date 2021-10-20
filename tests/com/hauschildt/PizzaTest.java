@@ -15,12 +15,14 @@ class PizzaTest {
 
     @Test
     void getName() {
-        fail();
+        assertEquals(Pizza.DEFAULT_NAME, pizza.getName());
     }
 
     @Test
     void setName() {
-        fail();
+        String name = "";
+        pizza.setName(name);
+        assertEquals(name, pizza.getName());
     }
 
     @Test
