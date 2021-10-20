@@ -1,7 +1,7 @@
 package com.hauschildt;
 
 public enum Veggie {
-    TOMATO("Roma tomatos")
+    TOMATO("Roma tomatoes")
     ,GREEN_PEPPER("Green peppers")
     ,MUSHROOM("Mushrooms")
     ,PINEAPPLE("Pineapple")
@@ -9,6 +9,11 @@ public enum Veggie {
     ,ONION("Yellow onion")
     ,BANANA_PEPPER("Banana peppers")
     ,JALAPENO("Jalapeno")
+    ,SAUERKRAUT("Sauerkraut")
+    ,RED_ONION("Red onion")
+    ,CARROT("Carrot")
+    ,SESAME_SEEDS("Sesame seeds")
+    ,RED_PEPPER("Red Pepper")
     ;
 
     String description;
