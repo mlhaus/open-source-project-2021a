@@ -18,6 +18,10 @@ public enum PizzaItem {
             Crust.ORIGINAL, Sauce.MARINARA, new Meat[]{Meat.PEPPERONI, Meat.CANADIAN_BACON,
             Meat.SAUSAGE}, new Veggie[]{Veggie.ONION, Veggie.GREEN_PEPPER, Veggie.MUSHROOM,
             Veggie.BLACK_OLIVE})
+    ,MIKES_PIZZA("Mike's Pizza", 19.85, "A conglomeration of sausage, " +
+            "Banana Peppers, onion, green peppers, mushrooms and roma tomatoes", Size.LARGE,
+            Crust.THIN, Sauce.MARINARA, new Meat[]{Meat.SAUSAGE}, new Veggie[]{Veggie.BANANA_PEPPER,
+            Veggie.ONION, Veggie.GREEN_PEPPER, Veggie.MUSHROOM, Veggie.TOMATO})
     ,THE_MEATS("The Meats Pizza", 18.99, "Packed with pepperoni, Italian sausage, ham, bacon," +
             " seasoned pork and beef, this pizza is NOT messing around.", Size.LARGE, Crust.PAN, Sauce.MARINARA,
             new Meat[]{Meat.PEPPERONI, Meat.SAUSAGE, Meat.HAM, Meat.BEEF, Meat.ITALIAN_SAUSAGE, Meat.BACON}, new Veggie[]{})
