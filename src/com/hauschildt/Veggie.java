@@ -8,6 +8,10 @@ public enum Veggie {
     ,BLACK_OLIVE("Black olives")
     ,ONION("Yellow onion")
     ,BANANA_PEPPER("Banana peppers")
+    ,RED_ONION("Red onion")
+    ,CARROT("Carrot")
+    ,SESAME_SEEDS("Sesame seeds")
+    ,RED_PEPPER("Red Pepper")
     ;
 
     String description;
