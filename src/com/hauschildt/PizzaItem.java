@@ -8,7 +8,7 @@ public enum PizzaItem {
     ,SAUSAGE("Sausage Pizza", 13.49, "Our signature pizza sauce layered " +
             "with sausage and real mozzarella cheese. Your choice of crust.", Size.LARGE,
             Crust.ORIGINAL, Sauce.MARINARA, new Meat[]{Meat.SAUSAGE}, new Veggie[]{})
-    ,CHEESE("Cheese Pizza", 12.99, "Simple, yet delicious. Real mozarella " +
+    ,CHEESE("Cheese Pizza", 12.99, "Simple, yet delicious. Real mozzarella " +
             "cheese on top of our signature pizza sauce with your choice of crust, then baked " +
             "to a golden brown.", Size.LARGE, Crust.ORIGINAL, Sauce.MARINARA,
             new Meat[]{}, new Veggie[]{})
@@ -22,6 +22,9 @@ public enum PizzaItem {
             Crust.ORIGINAL, Sauce.MARINARA, new Meat[]{Meat.PEPPERONI, Meat.CANADIAN_BACON,
             Meat.SAUSAGE}, new Veggie[]{Veggie.ONION, Veggie.GREEN_PEPPER, Veggie.MUSHROOM,
             Veggie.BLACK_OLIVE})
+    , REUBEN("Reuben", 13.99, "Our delicious take on the classic sandwich. Corned beef " +
+            "sauerkraut, and thousand island dressing topped with swiss cheese.", Size.LARGE, Crust.ORIGINAL,
+            Sauce.THOUSAND_ISLAND, new Meat[]{Meat.CORNED_BEEF}, new Veggie[]{Veggie.SAUERKRAUT})
     ,MEAT_LOVERS("Super Carnivore Pizza", 18.99, "All the meat you could want with no vegetables. "+
             "Classic pepperoni, spicy Italian sausage, bacon, Canadian bacon, and smokey grilled chicken. All on top of" +
             "fresh mozzarella cheese and marinara sauce.", Size.EXTRA_LARGE, 
