@@ -22,6 +22,10 @@ public enum PizzaItem {
             Crust.ORIGINAL, Sauce.MARINARA, new Meat[]{Meat.PEPPERONI, Meat.CANADIAN_BACON,
             Meat.SAUSAGE}, new Veggie[]{Veggie.ONION, Veggie.GREEN_PEPPER, Veggie.MUSHROOM,
             Veggie.BLACK_OLIVE})
+    ,VEGAN_SUPREME("Vegan Supreme pizza",21.99,"Plant based sausage with pineapple, onions " +
+            "black olives, mushrooms, green pepper, tomatoes, and dairy free cheese", Size.LARGE, Crust.ORIGINAL,
+            Sauce.MARINARA, new Meat[]{Meat.VEGAN_SAUSAGE}, new Veggie[]{Veggie.ONION, Veggie.BLACK_OLIVE,
+            Veggie.GREEN_PEPPER, Veggie.MUSHROOM, Veggie.PINEAPPLE, Veggie.TOMATO});
     , REUBEN("Reuben", 13.99, "Our delicious take on the classic sandwich. Corned beef " +
             "sauerkraut, and thousand island dressing topped with swiss cheese.", Size.LARGE, Crust.ORIGINAL,
             Sauce.THOUSAND_ISLAND, new Meat[]{Meat.CORNED_BEEF}, new Veggie[]{Veggie.SAUERKRAUT})
