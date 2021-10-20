@@ -28,19 +28,20 @@ class PizzaTest {
 
     @Test
     void getPrice() {
-        fail();
+        assertEquals(MenuItem.DEFAULT_PRICE, pizza.getPrice());
     }
 
     @Test
     void setPrice() {
-        fail();
+        double newPizzaPrice = 1;
+        pizza.setPrice(newPizzaPrice);
+        assertEquals(newPizzaPrice, pizza.getPrice());
     }
 
     @Test
     void getDescription() {
         //Derrick
         assertEquals(Pizza.DEFAULT_DESCRIPTION, pizza.getDescription());
-
     }
 
     @Test
@@ -65,15 +66,12 @@ class PizzaTest {
     @Test
     void getCrust() {
         assertEquals(Pizza.DEFAULT_CRUST, pizza.getCrust());
-
     }
 
     @Test
     void setCrustWithGoodData() {
-
         pizza.setCrust(Crust.PAN);
         assertEquals(Crust.PAN, pizza.getCrust());
-
     }
 
     @Test
