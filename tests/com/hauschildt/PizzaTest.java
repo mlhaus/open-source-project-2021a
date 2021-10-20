@@ -1,5 +1,6 @@
 package com.hauschildt;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -85,12 +86,20 @@ class PizzaTest {
 
     @Test
     void getVeggies() {
-        fail();
+        Veggie[] expectedVeggies = Pizza.DEFAULT_VEGGIE;
+        Veggie[] actualVeggies = pizza.getVeggies();
+        Assertions.assertEquals(expectedVeggies, actualVeggies);
     }
 
     @Test
-    void setVeggies() {
-        fail();
+    void setVeggies10Good() {
+        Veggie[] newVeggies = {Veggie.TOMATO, Veggie.PINEAPPLE, Veggie.MUSHROOM, Veggie.GREEN_PEPPER, Veggie.ONION,
+                Veggie.BLACK_OLIVE, Veggie.JALAPENO, Veggie.CARROT, Veggie.BANANA_PEPPER, Veggie.SESAME_SEEDS};
+
+        pizza.setVeggies(newVeggies);
+        Veggie[] actualVeggies = pizza.getVeggies();
+
+        Assertions.assertEquals(newVeggies, actualVeggies);
     }
 
     @Test
