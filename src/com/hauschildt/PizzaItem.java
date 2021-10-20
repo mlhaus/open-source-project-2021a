@@ -22,6 +22,9 @@ public enum PizzaItem {
             Crust.ORIGINAL, Sauce.MARINARA, new Meat[]{Meat.PEPPERONI, Meat.CANADIAN_BACON,
             Meat.SAUSAGE}, new Veggie[]{Veggie.ONION, Veggie.GREEN_PEPPER, Veggie.MUSHROOM,
             Veggie.BLACK_OLIVE})
+    ,GRINDER("Grinder Pizza", 22.75, "A special blend of sausage and beef " +
+            "topped with onions, jalapenos, mozzarella, & cheddar cheese.", Size.LARGE, Crust.ORIGINAL,
+            Sauce.MARINARA, new Meat[]{Meat.SAUSAGE, Meat.BEEF}, new Veggie[]{Veggie.ONION, Veggie.JALAPENO})
     , ANCHOVY("Anchovy", 13.49, "Our signature pizza sauce layered " +
             "with anchovy and real mozzarella cheese. Your choice of crust.", Size.LARGE,
             Crust.ORIGINAL, Sauce.MARINARA, new Meat[]{Meat.ANCHOVY}, new Veggie[]{})

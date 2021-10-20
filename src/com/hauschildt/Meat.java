@@ -6,11 +6,11 @@ public enum Meat {
     ,CANADIAN_BACON("Canadian bacon")
     ,CHICKEN("Grilled chicken")
     ,BACON("Bacon")
-    , ANCHOVY("Anchovy")
+    ,BEEF("Beef")
+    ,ANCHOVY("Anchovy")
     ,VEGAN_SAUSAGE("Plant Based Sausage")
     ,CORNED_BEEF("Corned beef")
     ,HAM("Ham")
-    ,BEEF("Beef")
     ,ITALIAN_SAUSAGE("Italian Sausage")
     ;
 
