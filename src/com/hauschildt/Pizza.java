@@ -15,6 +15,8 @@ public class Pizza extends MenuItem {
     public static final Meat[] DEFAULT_MEAT = new Meat[]{};
     public static final Veggie[] DEFAULT_VEGGIE = new Veggie[]{};
 
+    public static final Size MIN_DEFAULT_SIZE = Size.SMALL;
+
     public Pizza() {
         this(MenuItem.DEFAULT_NAME, MenuItem.DEFAULT_PRICE, MenuItem.DEFAULT_DESCRIPTION,
                 DEFAULT_SIZE, DEFAULT_CRUST, DEFAULT_SAUCE, DEFAULT_MEAT, DEFAULT_VEGGIE);
