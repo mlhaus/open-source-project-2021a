@@ -7,6 +7,9 @@ public enum Meat {
     ,CHICKEN("Grilled chicken")
     ,BACON("Bacon")
     ,CORNED_BEEF("Corned beef")
+    ,HAM("Ham")
+    ,BEEF("Beef")
+    ,ITALIAN_SAUSAGE("Italian Sausage")
     ;
 
     String description;
