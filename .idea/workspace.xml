@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ac84126-d6ff-4b64-bbe6-e8e1b7fb2026" name="Changes" comment="" />
+    <list default="true" id="3ac84126-d6ff-4b64-bbe6-e8e1b7fb2026" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/open-source-project-2021a.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/open-source-project-2021a.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hauschildt/MenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hauschildt/MenuItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/com/hauschildt/PizzaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/com/hauschildt/PizzaTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,20 +21,49 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.3704918" />
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PizzaTest">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="16" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.hauschildt.Main" />
+      <module name="open-source-project-2021a" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PizzaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="open-source-project-2021a" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hauschildt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hauschildt" />
+      <option name="MAIN_CLASS_NAME" value="com.hauschildt.PizzaTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PizzaTest" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -39,7 +73,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1635195201200</updated>
-      <workItem from="1635195202822" duration="665000" />
+      <workItem from="1635195202822" duration="873000" />
+      <workItem from="1635196109936" duration="951000" />
+      <workItem from="1635197099631" duration="353000" />
+      <workItem from="1635197478288" duration="64000" />
+      <workItem from="1635197568152" duration="298000" />
+      <workItem from="1635197902927" duration="186000" />
+      <workItem from="1635198120015" duration="421000" />
     </task>
     <servers />
   </component>

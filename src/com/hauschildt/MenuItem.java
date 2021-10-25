@@ -28,6 +28,7 @@ public abstract class MenuItem {
     }
 
     public void setPrice(double price) {
+        validatePrice(price);
         this.price = price;
     }
 
@@ -37,5 +38,11 @@ public abstract class MenuItem {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    private void validatePrice(double price) {
+        if(price <= 0) {
+            throw new IllegalArgumentException("Price cannot be negative.");
+        }
     }
 }
