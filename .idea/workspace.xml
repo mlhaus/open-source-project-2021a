@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39b6b9ab-389a-4b82-8499-11ccd6147377" name="Changes" comment="Mozzarella correction&#10;Anchovy pizza" />
+    <list default="true" id="39b6b9ab-389a-4b82-8499-11ccd6147377" name="Changes" comment="Mozzarella correction&#10;Anchovy pizza">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/com/hauschildt/PizzaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/com/hauschildt/PizzaTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +21,6 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -46,7 +48,8 @@
       <option name="presentableId" value="Default" />
       <updated>1634580139864</updated>
       <workItem from="1634580141942" duration="1411000" />
-      <workItem from="1635134444242" duration="4130000" />
+      <workItem from="1635134444242" duration="4832000" />
+      <workItem from="1635182929325" duration="2503000" />
     </task>
     <task id="LOCAL-00001" summary="Mozzarella correction&#10;Anchovy pizza">
       <created>1634580779674</created>

@@ -39,13 +39,13 @@ class PizzaTest {
     }
 
     @Test
-    void isNegPrice() {
+    void negativeBad() {
         System.out.println("Negative Prices are bad");
-        double price = -1.25;
+        double badPrice = -1.25;
         Pizza instance = new Pizza();
         double normalPrice = instance.getPrice();
         try{
-            instance.setPrice(price);
+            instance.setPrice(badPrice);
             fail("Allowed to set invalid price");
         } catch(IllegalArgumentException i){
             assertEquals(normalPrice, instance.getPrice());
