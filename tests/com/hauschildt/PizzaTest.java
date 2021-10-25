@@ -39,6 +39,19 @@ class PizzaTest {
     }
 
     @Test
+    void isNegPrice() {
+        System.out.println("Negative Prices are bad");
+        double price = -1.25;
+        Pizza instance = new Pizza();
+        double normalPrice = instance.getPrice();
+        try{
+            instance.setPrice(price);
+            fail("Allowed to set invalid price");
+        } catch(IllegalArgumentException i){
+            assertEquals(normalPrice, instance.getPrice());
+        }//Izy
+
+    @Test
     void getDescription() {
         //Derrick
         assertEquals(Pizza.DEFAULT_DESCRIPTION, pizza.getDescription());
