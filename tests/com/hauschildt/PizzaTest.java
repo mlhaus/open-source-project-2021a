@@ -39,6 +39,14 @@ class PizzaTest {
     }
 
     @Test
+    void setPriceNegativeBad() {
+        double badPizzaPrice = -1;
+        assertThrows(IllegalArgumentException.class, () -> {
+            pizza.setPrice(badPizzaPrice);
+        });
+    }
+
+    @Test
     void getDescription() {
         //Derrick
         assertEquals(Pizza.DEFAULT_DESCRIPTION, pizza.getDescription());
