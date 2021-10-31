@@ -3,7 +3,10 @@ package com.hauschildt;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.function.Executable;
+
 import java.util.Arrays;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class PizzaTest {
@@ -40,10 +43,16 @@ class PizzaTest {
 
     @Test
     void setPriceNegativeBad() {
-        double badPizzaPrice = -1;
-        assertThrows(IllegalArgumentException.class, () -> {
-            pizza.setPrice(badPizzaPrice);
+        double newPizzaPrice = -1;
+        Exception exception = assertThrows(IllegalArgumentException.class, new Executable() {
+            @Override
+            public void execute() throws Throwable {
+                pizza.setPrice(newPizzaPrice);
+            }
         });
+        String expectedMessage = "The price of the pizza cannot be negative.";
+        String actualMessage = exception.getMessage();
+        assertTrue(actualMessage.contains(expectedMessage));
     }
 
     @Test

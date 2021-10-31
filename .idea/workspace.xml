@@ -6,11 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="971c89bb-aa65-467c-8f28-528ea5fffcfc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/open-source-project-2021a/com/hauschildt/MenuItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/open-source-project-2021a/com/hauschildt/MenuItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/open-source-project-2021a/com/hauschildt/Pizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/open-source-project-2021a/com/hauschildt/Pizza.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/open-source-project-2021a/com/hauschildt/PizzaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/open-source-project-2021a/com/hauschildt/PizzaTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hauschildt/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hauschildt/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hauschildt/PizzaItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hauschildt/PizzaItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hauschildt/MenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hauschildt/MenuItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/com/hauschildt/PizzaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/com/hauschildt/PizzaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="AndrewA-get-stared" />
+        <entry key="$PROJECT_DIR$" value="andrewas-pizza" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -68,7 +66,7 @@
       <recent name="com.hauschildt" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.PizzaTest.setPriceNegativeBad">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="15" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -100,8 +98,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PizzaTest.setPriceNegativeBad" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="open-source-project-2021a" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hauschildt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hauschildt" />
+      <option name="MAIN_CLASS_NAME" value="com.hauschildt.PizzaTest" />
+      <option name="METHOD_NAME" value="setPriceNegativeBad" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PizzaTest.setPriceNegativeBad" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.PizzaTest.getPrice" />
       </list>
