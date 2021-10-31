@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="971c89bb-aa65-467c-8f28-528ea5fffcfc" name="Default Changelist" comment="" />
+    <list default="true" id="971c89bb-aa65-467c-8f28-528ea5fffcfc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/open-source-project-2021a/com/hauschildt/MenuItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/open-source-project-2021a/com/hauschildt/MenuItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/open-source-project-2021a/com/hauschildt/Pizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/open-source-project-2021a/com/hauschildt/Pizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/open-source-project-2021a/com/hauschildt/PizzaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/open-source-project-2021a/com/hauschildt/PizzaTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hauschildt/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hauschildt/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hauschildt/PizzaItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hauschildt/PizzaItem.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="AndrewA-get-stared" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -58,7 +68,7 @@
       <recent name="com.hauschildt" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PizzaTest.getPrice">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="15" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -92,8 +102,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PizzaTest.getPrice" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.PizzaTest.getPrice" />
       </list>
     </recent_temporary>
   </component>
