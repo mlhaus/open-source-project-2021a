@@ -57,6 +57,10 @@ public enum PizzaItem {
     ,LIAMS_PIZZA("Liams Pizza", 20.00, "This ginormous pizza has lots of pepperoni, canadian bacon, sausage, and mozzarella " +
             "cheese.", Size.EXTRA_LARGE, Crust.THIN, Sauce.MARINARA, new Meat[]{Meat.PEPPERONI, Meat.CANADIAN_BACON, Meat.SAUSAGE},
             new Veggie[]{})
+    ,BBQ_CHICKEN("BBQ Chicken Pizza", 16.99, "Smothered in smoky BBQ sauce, it’s topped with grilled chicken, " +
+            "hickory-smoked bacon, Red onions and Pineapple",
+                 Size.LARGE, Crust.ORIGINAL, Sauce.BBQ, new Meat[]{Meat.CHICKEN, Meat.BACON}, new Veggie[]{Veggie.RED_ONION,
+    Veggie.PINEAPPLE})
     ;
 
     private Pizza item;

@@ -5,9 +5,7 @@ package com.hauschildt;
 public class Main {
 
     public static void main(String[] args) {
-<<<<<<< HEAD
-	
-=======
+
         Order order = new Order();
         order.addItem(PizzaItem.PEPPERONI.getItem());
         order.addItem(PizzaItem.SAUSAGE.getItem());
@@ -19,6 +17,6 @@ public class Main {
         System.out.println(order.getItem(2).getName());
         System.out.println(order.getItem(3).getName());
         // Hello
->>>>>>> 2a500abb55ca6f096111cc99de0cc6d4d9ae90d9
+
     }
 }

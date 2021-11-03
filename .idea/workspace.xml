@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="971c89bb-aa65-467c-8f28-528ea5fffcfc" name="Default Changelist" comment="" />
+    <list default="true" id="971c89bb-aa65-467c-8f28-528ea5fffcfc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/open-source-project-2021a/com/hauschildt/Crust.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/open-source-project-2021a/com/hauschildt/Crust.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/open-source-project-2021a/com/hauschildt/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/open-source-project-2021a/com/hauschildt/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/open-source-project-2021a/com/hauschildt/Meat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/open-source-project-2021a/com/hauschildt/Meat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/open-source-project-2021a/com/hauschildt/MenuItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/open-source-project-2021a/com/hauschildt/MenuItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/open-source-project-2021a/com/hauschildt/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/open-source-project-2021a/com/hauschildt/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/open-source-project-2021a/com/hauschildt/OrderOperations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/open-source-project-2021a/com/hauschildt/OrderOperations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/open-source-project-2021a/com/hauschildt/Pizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/open-source-project-2021a/com/hauschildt/Pizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/open-source-project-2021a/com/hauschildt/PizzaItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/open-source-project-2021a/com/hauschildt/PizzaItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/open-source-project-2021a/com/hauschildt/Sauce.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/open-source-project-2021a/com/hauschildt/Sauce.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/open-source-project-2021a/com/hauschildt/Size.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/open-source-project-2021a/com/hauschildt/Size.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/open-source-project-2021a/com/hauschildt/Veggie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/open-source-project-2021a/com/hauschildt/Veggie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/open-source-project-2021a/com/hauschildt/PizzaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/open-source-project-2021a/com/hauschildt/PizzaTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hauschildt/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hauschildt/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hauschildt/MenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hauschildt/MenuItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hauschildt/PizzaItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hauschildt/PizzaItem.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,8 +65,12 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Final_Project" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.1911069" />
   </component>
@@ -58,7 +82,7 @@
       <recent name="com.hauschildt" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PizzaTest.getPrice">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="15" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -92,8 +116,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PizzaTest.getPrice" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.PizzaTest.getPrice" />
       </list>
     </recent_temporary>
   </component>
@@ -114,6 +138,9 @@
       <workItem from="1634856136543" duration="740000" />
       <workItem from="1635182392249" duration="580000" />
       <workItem from="1635189713059" duration="599000" />
+      <workItem from="1635467143998" duration="13560000" />
+      <workItem from="1635794375587" duration="2902000" />
+      <workItem from="1635902494469" duration="17000" />
     </task>
     <task id="LOCAL-00001" summary="Add a comment">
       <created>1634577933281</created>
