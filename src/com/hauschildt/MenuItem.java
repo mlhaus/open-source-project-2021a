@@ -40,7 +40,7 @@ public abstract class MenuItem {
         this.description = description;
     }
 
-    //create validatePriceMethod
+
     private void validatePrice(double price){
         if(price < 0){
             throw new IllegalArgumentException("The price can't be negative.");

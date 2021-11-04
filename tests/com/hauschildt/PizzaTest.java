@@ -3,6 +3,9 @@ package com.hauschildt;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.function.Executable;
+
+import java.util.Arrays;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -49,6 +52,18 @@ class PizzaTest {
         } catch (IllegalArgumentException i) {
             assertEquals(normalPrice, pizza.getPrice());
         }//Izy
+
+    void setPriceNegativeBad() {
+        double newPizzaPrice = -1;
+        Exception exception = assertThrows(IllegalArgumentException.class, new Executable() {
+            @Override
+            public void execute() throws Throwable {
+                pizza.setPrice(newPizzaPrice);
+            }
+        });
+        String expectedMessage = "The price of the pizza cannot be negative.";
+        String actualMessage = exception.getMessage();
+        assertTrue(actualMessage.contains(expectedMessage));
     }
 
     @Test
@@ -129,6 +144,19 @@ class PizzaTest {
 
     @Test
     void testToString() {
-        fail();
+        String expected = "Pizza{" +
+                "name='" + MenuItem.DEFAULT_NAME + '\'' +
+                ", price=" + MenuItem.DEFAULT_PRICE +
+                ", description='" + MenuItem.DEFAULT_DESCRIPTION + '\'' +
+                ", size=" + Pizza.DEFAULT_SIZE +
+                ", crust=" + Pizza.DEFAULT_CRUST +
+                ", sauce=" + Pizza.DEFAULT_SAUCE +
+                ", meat=" + Arrays.toString(Pizza.DEFAULT_MEAT) +
+                ", veggies=" + Arrays.toString(Pizza.DEFAULT_VEGGIE) +
+                '}';
+
+        String actual = pizza.toString();
+
+        assertEquals(expected, actual);
     }
 }
