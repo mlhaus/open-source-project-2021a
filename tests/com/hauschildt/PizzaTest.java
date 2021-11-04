@@ -42,6 +42,17 @@ class PizzaTest {
     }
 
     @Test
+    void negativeBad() {
+        System.out.println("Negative Prices are bad");
+        double badPrice = -1.25;
+        double normalPrice = pizza.getPrice();
+        try {
+            pizza.setPrice(badPrice);
+            fail("Allowed to set invalid price");
+        } catch (IllegalArgumentException i) {
+            assertEquals(normalPrice, pizza.getPrice());
+        }//Izy
+
     void setPriceNegativeBad() {
         double newPizzaPrice = -1;
         Exception exception = assertThrows(IllegalArgumentException.class, new Executable() {
